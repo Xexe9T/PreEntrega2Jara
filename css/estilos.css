@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #64F4FA;
+}
+
+header{
+    width: 100vw;
+    height: 10vh;    
+    background-color: #64F4FA;
+    border: 2px solid black;
+    font-family: 'Roboto', sans-serif;    
+}
+header h1{
+    color: blueviolet;
+    background-color: #F07ACA;
+    font-family: 'Roboto', sans-serif;
+}
+main{
+    width: 100vw;
+    height: 90vh;    
+    background-color:aquamarine;
+    border: 2px solid black;
+    font-family: 'Roboto', sans-serif;
+}
+footer{
+    width: 100vw;
+    height: 10vh;
+    background-color: blueviolet;
+    border: 2px solid black;
+    font-family: 'Roboto', sans-serif;
+}
+.tiposDeProductos{
+    width: 100vw;
+    height: 30vh;
+    background-color: bisque;
+}
+.historiaDeEmpresa{
+    width: 100vw;
+    height: 80vh;
+    background-color: antiquewhite;
+    }
+.cajaUno{
+    width: 30vw;
+    height: 40vh;
+    background-color: rgb(126, 80, 21);
+    display: inline-block;
+}
+.cajaDos{
+    width: 30vw;
+    height: 40vh;
+    background-color: rgb(245, 149, 23);
+    display: inline-block;
+}
+ul{
+    margin-left: 20px;
+    list-style-type: none;
+    text-align: right;
+    font-style: italic;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+}
