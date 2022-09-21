@@ -1,63 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
-    width: 100vw;
-    height: 100vh;
-    background-color: #64F4FA;
+       background-color: #64F4FA;
+       font-family: 'Roboto', sans-serif;
 }
 
-header{
-    width: 100vw;
-    height: 10vh;    
+header{      
     background-color: #64F4FA;
     border: 2px solid black;
-    font-family: 'Roboto', sans-serif;    
-}
-header h1{
-    color: blueviolet;
-    background-color: #F07ACA;
-    font-family: 'Roboto', sans-serif;
-}
-main{
-    width: 100vw;
-    height: 90vh;    
+ }   
+
+main{        
     background-color:aquamarine;
     border: 2px solid black;
-    font-family: 'Roboto', sans-serif;
+    
 }
-footer{
-    width: 100vw;
-    height: 10vh;
+footer{   
     background-color: blueviolet;
     border: 2px solid black;
-    font-family: 'Roboto', sans-serif;
+   
 }
-.tiposDeProductos{
-    width: 100vw;
-    height: 30vh;
+.tiposDeProductos{   
     background-color: bisque;
+    
 }
-.historiaDeEmpresa{
-    width: 100vw;
-    height: 80vh;
+.historiaDeEmpresa{    
     background-color: antiquewhite;
+    padding: 2rem;
+   
     }
-.cajaUno{
-    width: 30vw;
-    height: 40vh;
-    background-color: rgb(126, 80, 21);
-    display: inline-block;
+.cajaUno{    
+    background-color: rgb(126, 80, 21);   
 }
-.cajaDos{
-    width: 30vw;
-    height: 40vh;
-    background-color: rgb(245, 149, 23);
-    display: inline-block;
+.cajaDos{    
+    background-color: rgb(245, 149, 23);   
 }
 ul{
-    margin-left: 20px;
+    margin-right: 20px;
     list-style-type: none;
     text-align: right;
     font-style: italic;
