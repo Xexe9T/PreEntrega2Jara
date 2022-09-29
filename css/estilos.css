@@ -1,56 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&display=swap');
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-body{
-       background-color: #64F4FA;
-       font-family: 'Roboto', sans-serif;
-}
-
-header{      
-    background-color: #64F4FA;
-    border: 2px solid black;
- }   
-
-main{        
-    background-color:aquamarine;
-    border: 2px solid black;
-    
-}
-footer{   
-    background-color: blueviolet;
-    border: 2px solid black;
-   
-}
-.tiposDeProductos{   
-    background-color: bisque;
-    
-}
-.historiaDeEmpresa{    
-    background-color: antiquewhite;
-    padding: 2rem;
-   
-    }
-.cajaUno{    
-    background-color: rgb(126, 80, 21);   
-}
-.cajaDos{    
-    background-color: rgb(245, 149, 23);   
-}
-ul{
-    margin-right: 20px;
-    list-style-type: none;
-    text-align: right;
-    font-style: italic;
-    font-size: 20px;
-    font-family: 'Roboto', sans-serif;
-}
-ul li{
-    display: inline-block;
-}
-ul li a{
-    text-decoration: none;
 }
